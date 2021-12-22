@@ -4,10 +4,6 @@
     font-weight: 400;
   }
 
-body {
-    display: block;
-}
-
   main {
     height: 100vh;
     display: grid;
@@ -20,8 +16,7 @@ body {
     margin: 10px;
   }
 
-  main .left_bar {
-      padding: 0 10px; 
+  main .left_bar { 
         .foto {
           position: relative;
           img {
@@ -136,11 +131,38 @@ body {
   }
   
   main .right_bar {
-    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+
+    .top_bar {
+        padding: 30px;
+        line-height: 3;
+        h2 {
+            font-size: 40px;
+        }
+        
+        h4 {
+            color: #009688;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        b {
+            color: white;
+            background-color: #009688;
+            padding: 5px 10px;
+            border-radius: 3px;
+        }
+    }
   }
 
   i {
-    color: #009688
+    color: #009688 ;
+    padding-right: 10px;
+    
   }
 
   footer {
