@@ -3,6 +3,9 @@
   font-family: sans-serif;
   font-weight: 400;
 }
+body {
+  display: block;
+}
 main {
   height: 100vh;
   display: grid;
@@ -13,6 +16,9 @@ main section {
   border: 1px solid black;
   box-shadow: 0px 1px 3px 3px gray;
   margin: 10px;
+}
+main .left_bar {
+  padding: 0 10px;
 }
 main .left_bar .foto {
   position: relative;
@@ -27,13 +33,89 @@ main .left_bar .foto h1 {
   padding: 15px;
   font-size: 30px;
 }
-main .left_bar p {
-  padding: ;
-}
 main .left_bar .text {
   padding: 10px;
-  line-height: 2;
   color: gray;
+}
+main .left_bar .adobe {
+  background-color: #e4e4e4;
+  border-radius: 20px;
+}
+main .left_bar .adobe p {
+  text-align: center;
+  background-color: #009688;
+  color: white;
+  width: 90%;
+  border-radius: 20px;
+}
+main .left_bar .photo {
+  background-color: #e4e4e4;
+  border-radius: 20px;
+}
+main .left_bar .photo p {
+  text-align: center;
+  background-color: #009688;
+  color: white;
+  width: 80%;
+  border-radius: 20px;
+}
+main .left_bar .illustrator {
+  background-color: #e4e4e4;
+  border-radius: 20px;
+}
+main .left_bar .illustrator p {
+  text-align: center;
+  background-color: #009688;
+  color: white;
+  width: 75%;
+  border-radius: 20px;
+}
+main .left_bar .media {
+  background-color: #e4e4e4;
+  border-radius: 20px;
+}
+main .left_bar .media p {
+  text-align: center;
+  background-color: #009688;
+  color: white;
+  width: 50%;
+  border-radius: 20px;
+}
+main .left_bar .eng {
+  background-color: #e4e4e4;
+  border-radius: 20px;
+  line-height: 1.5;
+}
+main .left_bar .eng p {
+  background-color: #009688;
+  color: #009688;
+  width: 100%;
+  border-radius: 20px;
+}
+main .left_bar .spa {
+  background-color: #e4e4e4;
+  border-radius: 20px;
+  line-height: 1.5;
+}
+main .left_bar .spa p {
+  background-color: #009688;
+  color: #009688;
+  width: 50%;
+  border-radius: 20px;
+}
+main .left_bar .ger {
+  background-color: #e4e4e4;
+  border-radius: 20px;
+  line-height: 1.5;
+}
+main .left_bar .ger p {
+  background-color: #009688;
+  color: #009688;
+  width: 25%;
+  border-radius: 20px;
+}
+main .left_bar p {
+  margin: 15px 0;
 }
 main .right_bar {
   overflow-y: scroll;
@@ -47,6 +129,7 @@ footer {
   text-align: center;
   padding: 20px;
   line-height: 2;
+  margin-top: 16px;
 }
 footer i {
   color: white;
