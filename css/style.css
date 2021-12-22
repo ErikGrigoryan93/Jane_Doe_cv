@@ -1,6 +1,7 @@
 * {
   margin: 0;
   font-family: sans-serif;
+  font-weight: 400;
 }
 main {
   height: 100vh;
@@ -12,6 +13,27 @@ main section {
   border: 1px solid black;
   box-shadow: 0px 1px 3px 3px gray;
   margin: 10px;
+}
+main .left_bar .foto {
+  position: relative;
+}
+main .left_bar .foto img {
+  width: 100%;
+}
+main .left_bar .foto h1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  font-size: 30px;
+}
+main .left_bar p {
+  padding: ;
+}
+main .left_bar .text {
+  padding: 10px;
+  line-height: 2;
+  color: gray;
 }
 main .right_bar {
   overflow-y: scroll;
